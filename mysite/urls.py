@@ -12,7 +12,7 @@ urlpatterns = [
     url(r'^auth/', include('djoser.urls')),
     #url(r'^auth/', include('djoser.urls.jwt')),
     #path('api/', include('accounts.urls')),
-    path('', include('page.urls')),
+
    #path('login/', views.LoginView.as_view(), name='login')
 ]
 
